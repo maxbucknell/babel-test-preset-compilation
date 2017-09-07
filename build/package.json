@@ -1,0 +1,16 @@
+{
+  "name": "babel-bug-test",
+  "version": "1.0.0",
+  "description": "Exposing an issue in Babel preset resolution",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel ../src --presets minify -d ../dist"
+  },
+  "author": "Max Bucknell <me@maxbucknell.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-minify": "^0.2.0"
+  }
+}
